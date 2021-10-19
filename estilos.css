@@ -183,10 +183,25 @@ text-align: center;
             .textos-header h1{
                 font-size: 20px;
                 margin-bottom:80px ;
-                
+                width: 500px;
                 
                 margin-right: 0;
 
+            }
+
+            .institucion-principal{
+                width: 280px;
+                margin-left: 20px;
+                font-weight: 600;
+                font-size: 23px;
+                margin-top: 25px;
+            }
+
+            .institucion{
+            font-size: 23px;
+            margin-left: 20px;
+            font-weight: 600;
+            width: 280px;
             }
             header .logo{
                 width: 80px;
@@ -202,7 +217,7 @@ text-align: center;
                 
             }
             .contenido p{
-                font-size: 18px;
+                font-size: 22px;
                 margin-left: 10px;
                 line-height: 25px;
                 font-weight: 80;
@@ -218,13 +233,14 @@ text-align: center;
             .contenedor-footer{
                 flex-direction: column;
                 border: none;
+                align-items: center;
                 
             }
 
             .content-foo{
                 margin-bottom: 20px;
                 text-align: center;
-                
+                width: 300px;
             }
 
             .content-foo h4{
@@ -238,14 +254,18 @@ text-align: center;
             }
 
             .titulo-final{
-                font-size: 20px;
-                width: 200px;
-                margin-bottom: 6px;
+                font-size: 18px;
+                width: 250px;
+                margin-bottom: 40px;
+                align-items: center;
             }
 
             .presentation__picture{
-                width: 90px;
-                height: 90px;} 
+                width: 75px;
+                height: 75px;
+                margin-left: 5px;
+                
+            } 
 
                 .subtitle{
                     font-size: 20px;
@@ -257,8 +277,8 @@ text-align: center;
 
                     .presentatio__copy{
                         width: 65%;
-                        margin-left: 15px;
-                        font-size: 12px;
+                        margin-left: 10px;
+                        font-size: 15px;
                         font-weight: 50;}
 
         }
